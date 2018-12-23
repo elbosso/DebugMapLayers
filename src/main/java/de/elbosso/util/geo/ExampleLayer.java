@@ -1,3 +1,4 @@
+/*
 Copyright (c) 2012-2018.
 
 Juergen Key. Alle Rechte vorbehalten.
@@ -30,3 +31,35 @@ VERPFLICHTUNG AUCH IMMER, OB IN VERTRAG, STRIKTER VERPFLICHTUNG ODER
 UNERLAUBTE HANDLUNG (INKLUSIVE FAHRLAESSIGKEIT) VERANTWORTLICH, AUF WELCHEM
 WEG SIE AUCH IMMER DURCH DIE BENUTZUNG DIESER SOFTWARE ENTSTANDEN SIND, SOGAR,
 WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
+
+ */
+package de.elbosso.util.geo;
+
+
+public class ExampleLayer extends de.netsysit.util.geo.Layer
+{
+	private de.elbosso.util.geo.ExamplePainter painter;
+
+	public ExampleLayer(String name,de.netsysit.ui.geo.MapView mapView)
+	{
+		super(name, mapView);
+		painter=new de.elbosso.util.geo.ExamplePainter(mapView);
+		setPainter(painter);
+	}
+
+	@Override
+	public boolean isEnabled()
+	{
+		return painter.isEnabled();
+	}
+
+	@Override
+	public void setEnabled(boolean enabled)
+	{
+		boolean old=isEnabled();
+		painter.setEnabled(enabled);
+		mapView.repaint();
+		pcs.firePropertyChange("enabled",old,isEnabled());
+	}
+
+}

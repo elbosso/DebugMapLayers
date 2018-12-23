@@ -1,3 +1,4 @@
+/*
 Copyright (c) 2012-2018.
 
 Juergen Key. Alle Rechte vorbehalten.
@@ -30,3 +31,19 @@ VERPFLICHTUNG AUCH IMMER, OB IN VERTRAG, STRIKTER VERPFLICHTUNG ODER
 UNERLAUBTE HANDLUNG (INKLUSIVE FAHRLAESSIGKEIT) VERANTWORTLICH, AUF WELCHEM
 WEG SIE AUCH IMMER DURCH DIE BENUTZUNG DIESER SOFTWARE ENTSTANDEN SIND, SOGAR,
 WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
+
+ */
+
+package de.elbosso.util.geo;
+
+import de.netsysit.ui.geo.MapView;
+import de.netsysit.util.geo.Layer;
+
+public class ExampleLayerConstructor extends java.lang.Object implements LayerConstructor
+{
+	@Override
+	public Layer construct(MapView mapView) throws Exception
+	{
+		return new de.elbosso.util.geo.ExampleLayer("example", mapView);
+	}
+}
