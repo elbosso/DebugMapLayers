@@ -59,7 +59,7 @@ public class ExampleLayer extends de.netsysit.util.geo.Layer
 		boolean old=isEnabled();
 		painter.setEnabled(enabled);
 		mapView.repaint();
-		pcs.firePropertyChange("enabled",old,isEnabled());
+		send("enabled",old,isEnabled());
 	}
 
 }
