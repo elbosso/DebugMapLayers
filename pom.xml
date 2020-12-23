@@ -37,12 +37,12 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
     <groupId>de.elbosso.util.geo</groupId>
     <artifactId>DebugMapLayers</artifactId>
     <packaging>jar</packaging>
-    <version>1.2.0</version>
+    <version>1.3.0-SNAPSHOT</version>
     <name>A map layer displaying tile boundaries and names</name>
     <url>http://elbosso.github.io</url>
     <scm>
         <developerConnection>scm:git:https://github.com/elbosso/DebugMapLayers.git</developerConnection>
-      <tag>DebugMapLayers-1.2.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
