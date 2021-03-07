@@ -8,6 +8,11 @@ Changelog of Git Changelog Maven plugin.
 **automated maven release management**
 
 
+[8d864b9b90fab9e](https://github.com/elbosso/DebugMapLayers/commit/8d864b9b90fab9e) Jürgen Key *2020-12-23 09:03:13*
+
+**automated maven release management**
+
+
 [732f0be0928302f](https://github.com/elbosso/DebugMapLayers/commit/732f0be0928302f) Jürgen Key *2020-12-23 09:00:15*
 
 **maven central completely blocks http now**
