@@ -5,6 +5,15 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+**repository locations fixed**
+
+
+[54ce05992d36e66](https://github.com/elbosso/DebugMapLayers/commit/54ce05992d36e66) Jürgen Key *2021-03-07 07:27:20*
+
+
+## 1.2.0
+### No issue
+
 **automated maven release management**
 
 
