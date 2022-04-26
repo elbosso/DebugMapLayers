@@ -5,6 +5,11 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+**change of repository location for de.elbosso artifacts**
+
+
+[0b4523fe58bb32a](https://github.com/elbosso/DebugMapLayers/commit/0b4523fe58bb32a) Jürgen Key *2021-09-12 09:14:10*
+
 **repository locations fixed**
 
 
