@@ -3,6 +3,14 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
+### GitHub [#1](https://github.com/elbosso/DebugMapLayers/issues/1) get rid of log4j and use the new bom dependency
+
+**re #1**
+
+
+[cbb10565a6d2733](https://github.com/elbosso/DebugMapLayers/commit/cbb10565a6d2733) Jürgen Key *2022-04-26 15:27:52*
+
+
 ### No issue
 
 **change of repository location for de.elbosso artifacts**
